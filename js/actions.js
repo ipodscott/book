@@ -23,8 +23,8 @@ $( document ).ready(function() {
 		
 	});
 	
-	$('.hide-cover').click(function(){
-			$(this).parent().parent().parent('div').addClass( "hide" )
-		
+	
+	$('.cover-copy').on('click', '.hide-cover', function(){
+		$(this).parent().parent().parent('div').addClass( "hide" )
 	});
 });

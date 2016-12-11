@@ -37,12 +37,39 @@
 .bg-1 .boxes{color: #000;}
 .bg-2 .boxes{color: #efefef;}
 
+.hide-cover-btn{
+	display: block;
+	position: relative;
+	width: 240px;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin: 0 auto 20px auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999;
+	text-transform: uppercase;
+	font-weight: 700 !important;
+	padding: 8px 0 8px 0;
+	text-align: center;
+	color: #999;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.hide-cover-btn img{
+	max-width: 30px;
+	opacity: 0.6;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
 .show-cover{
 	display: block;
 	position: relative;
 	width: 240px;
 	height: auto;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.6);
 	margin: 0 auto 20px auto;
 	border-width: 1px;
 	border-style: solid;
@@ -58,7 +85,7 @@
 
 .show-cover img{
 	max-width: 30px;
-	opacity: 0.4;
+	opacity: 0.6;
 }
 
 .hide-cover{
@@ -307,4 +334,8 @@
 	overflow: hidden !important;
 	color: #fff;
 	text-align: center;
+}
+
+.title{
+	margin-bottom: 40px;
 }
